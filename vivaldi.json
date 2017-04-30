@@ -1,4 +1,5 @@
 {
-   "version":"1.9.818.44",
-   "url":"https://downloads.vivaldi.com/stable/Vivaldi.1.9.818.44.exe#/dl.7z"
+  "version":"1.9.818.44",
+  "url":"https://downloads.vivaldi.com/stable/Vivaldi.1.9.818.44.exe",
+  "hash": "0a3df69470fa138e9ba9f39f795dd556fb51e986105dbca2ad31640f4b5db82a"
 }
