@@ -1,0 +1,24 @@
+{
+  "homepage": "https://hyper.is",
+  "version": "1.9.0.6581",
+  "hash": "09f28e42ae353279c5c76b38501b1756f5f2b0bdf4fd78ccb10730ef6dd8f99f",
+  "url": [
+    "https://dist.mountainduck.io/Mountain%20Duck%20Installer-1.9.0.6581.msi"
+  ],
+  "bin": [
+    "Mountain Duck/Mountain Duck.exe"
+  ],
+  "shortcuts": [
+    [
+      "Mountain Duck/Mountain Duck.exe",
+      "Mountain Duck"
+    ]
+  ],
+  "checkver": {
+      "url": "https://mountainduck.io/",
+      "re": "(?<version>[\\d.]+).msi"
+  },
+  "autoupdate": {
+    "url": "https://dist.mountainduck.io/Mountain%20Duck%20Installer-$version.msi"
+  }
+}
