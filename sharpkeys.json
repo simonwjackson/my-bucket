@@ -1,0 +1,25 @@
+{
+  "homepage": "http://www.randyrants.com",
+  "version": "3.5",
+  "license": "MIT",
+  "hash": "fa2aafa9e33fa9ec436276774357e15d7611d3ebec3704b1d098765959442d57",
+  "url": [
+      "https://github.com/randyrants/sharpkeys/releases/download/v3.5/sharpkeys35.msi"
+  ],
+
+  "checkver": {
+    "github": "https://github.com/randyrants/sharpkeys"
+  },
+  "autoupdate": {
+    "url": "https://github.com/zeit/hyper/releases/download/v$version/sharpkeys$version.msi"
+  },
+  "bin": [
+      "SharpKeys.exe"
+  ],
+  "shortcuts": [
+    [
+        "SharpKeys.exe",
+        "SharpKeys"
+    ]
+  ]
+}
