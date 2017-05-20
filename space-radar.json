@@ -1,0 +1,24 @@
+{
+  "homepage": "https://github.com/zz85/space-radar",
+  "version": "3.3.0",
+  "hash": "295b1a851b9fc22823d8d58cbc74e67bbb388820d0c716dafcb41134cebe7d63",
+  "license": "MIT",
+  "url": [
+    "https://github.com/zz85/space-radar/releases/download/v3.3.0/SpaceRadar-win32-x64.zip"
+  ],
+  "bin": [
+    "SpaceRadar-win32-x64/SpaceRadar.exe"
+  ],
+  "shortcuts": [
+    [
+      "SpaceRadar-win32-x64/SpaceRadar.exe",
+      "Space Radar"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/zz85/space-radar"
+  },
+  "autoupdate": {
+    "url": "https://github.com/zz85/space-radar/releases/download/v$version/SpaceRadar-win32-x64.zip"
+  }
+}
