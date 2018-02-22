@@ -16,8 +16,6 @@
     ],
     "bin": "Vivaldi-bin\\vivaldi.exe",
     "pre_install": [
-      "rm $dir\\Vivaldi.1.15.1104.3.x64.exe",
-      "7z x -y $dir\\vivaldi.7z",
-      "rm $dir\\vivaldi.7z"
+      "7z x -y $dir\\vivaldi.7z"
     ]
 }
