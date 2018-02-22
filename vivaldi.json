@@ -8,7 +8,7 @@
       }
     },
     "bin": "Vivaldi-bin\\vivaldi.exe",
-    "post_install": [
+    "pre_install": [
       "rm .\\Vivaldi.1.15.1104.3.x64.exe",
       "7z x -y .\\vivaldi.7z",
       "rm .\\vivaldi.7z"
