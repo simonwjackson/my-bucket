@@ -1,9 +1,16 @@
 {
-  "version":"1.9.818.44",
-  "architecture": {
-    "64bit": {
-        "url":"https://downloads.vivaldi.com/stable/Vivaldi.1.9.818.44.exe",
-        "hash": "0a3df69470fa138e9ba9f39f795dd556fb51e986105dbca2ad31640f4b5db82a"
-    }
-  }
+    "homepage": "https://vivaldi.com",
+    "version": "1.15.1104.3",
+    "architecture": {
+      "64bit": {
+        "url": "https://downloads.vivaldi.com/snapshot/Vivaldi.1.15.1104.3.x64.exe#dl.7z",
+        "hash": "33b3f8a7a775c5cd65631b97b06ddbaeb09f1fc064b9373b3cad5df9ee62104d"
+      }
+    },
+    "bin": "Vivaldi-bin\\vivaldi.exe",
+    "post_install": [
+      "rm .\\Vivaldi.1.15.1104.3.x64.exe",
+      "7z x -y .\\vivaldi.7z",
+      "rm .\\vivaldi.7z"
+    ]
 }
